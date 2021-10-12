@@ -1,5 +1,4 @@
-<%@ page language="java" contentType="text/html, charset=ISO-8859-1"
-pageEncoding="ISO-8859-1" %>
+<%@ page language="java" contentType="text/html; charset=UTF8"    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -25,7 +24,7 @@ pageEncoding="ISO-8859-1" %>
         class="uk-card uk-card-body uk-margin-left uk-width-1-2@m uk-card-hover"
       >
         <h3 class="uk-card-title">Place Your Order Here</h3>
-        <form class="uk-form-stacked uk-margin-medium" method="POST" action="/order">
+        <form class="uk-form-stacked uk-margin-medium" method="POST" action="order">
           <div class="uk-margin uk-grid-small" uk-grid>
             <div class="uk-width-1-3@s">
               <label class="uk-form-label">Name</label>
